@@ -690,7 +690,7 @@
   function viewRegister(main) {
     const name = h('input', { id: 'reg-name', class: 'input', type: 'text', required: true, autocomplete: 'name', placeholder: 'As on your college records' });
     const usn = h('input', { id: 'reg-usn', class: 'input', type: 'text', required: true, autocomplete: 'username', placeholder: '1RV24IS057', spellcheck: 'false' });
-    const email = h('input', { id: 'reg-email', class: 'input', type: 'email', required: true, autocomplete: 'email', placeholder: 'karthikanupr.is24@rvce.edu.in', spellcheck: 'false' });
+    const email = h('input', { id: 'reg-email', class: 'input', type: 'email', required: true, autocomplete: 'email', placeholder: 'yourname.branch code.year@rvce.edu.in', spellcheck: 'false' });
     const dept = h('select', { id: 'reg-dept', class: 'input', required: true, disabled: true });
     const deptHint = h('p', { class: 'field-hint' }, 'Loading departments…');
     const password = h('input', { id: 'reg-password', class: 'input', type: 'password', required: true, autocomplete: 'new-password', placeholder: 'At least 8 characters' });

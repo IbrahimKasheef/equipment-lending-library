@@ -1,0 +1,27 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+
+# Runtime logs & process IDs
+*.log
+*.pid
+server.log
+server.err.log
+server.pid
+
+# PostgreSQL cluster / local data
+data/
+pgdata/
+
+# Operating system & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
