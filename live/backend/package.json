@@ -1,0 +1,19 @@
+{
+  "name": "equipment-lending-library-live-api",
+  "version": "1.1.0",
+  "private": true,
+  "description": "REST API for the live Equipment Lending Library website (RVCE, college-wide) - sessions, departments, labs, catalog, student self-service, faculty operations, SQL console and administration",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.11.5"
+  }
+}

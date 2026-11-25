@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light" />
+  <title>Equipment Lending Library - RVCE</title>
+  <meta name="description" content="Equipment Lending Library - RV College of Engineering. College-wide lab equipment desk for lending requests, reservations, FIFO hold queues and returns." />
+  <link rel="icon" type="image/png" href="/rvce-logo.png" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <noscript>
+    <div class="noscript">
+      <strong>Equipment Lending Library</strong> requires JavaScript.
+      Please enable JavaScript in your browser and reload the page.
+    </div>
+  </noscript>
+
+  <!-- The whole application (top bar, tab bar, screens, dialogs) is rendered
+       here by app.js. Nothing user-authored is ever injected with innerHTML. -->
+  <div id="app"></div>
+
+  <!-- Toast notifications (aria-live so screen readers announce them) -->
+  <div id="toasts" class="toasts" role="status" aria-live="polite" aria-atomic="false"></div>
+</body>
+</html>

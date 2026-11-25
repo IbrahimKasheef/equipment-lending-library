@@ -1,0 +1,12 @@
+{
+  "name": "ll-demos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Equipment Lending Library - Node.js concurrency demo (SERIALIZABLE checkout races with pg)",
+  "scripts": {
+    "start": "node 04_serializable_checkout.js"
+  },
+  "dependencies": {
+    "pg": "^8"
+  }
+}
